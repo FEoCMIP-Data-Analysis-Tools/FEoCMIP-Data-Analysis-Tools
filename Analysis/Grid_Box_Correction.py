@@ -1,3 +1,5 @@
+#This code will do a weighted grid box correction as a function of latitude and longitude.
+
 lat= #define latitude
 lon= #define latitude
 
