@@ -377,7 +377,7 @@ def run_preprocess(experiment:str, modelName:str, member:str, variables_in:list,
     '''
     # Default out_path
     if out_path is None: 
-        out_path = '/home/jupyter-haruki/work/{0}_{1}_{2}_output.nc'.format(modelName, member, experiment)
+        out_path = ''.format(modelName, member, experiment)
 
     print('Preprocessing for {0} {1} {2}'.format(modelName,experiment,member))
 
