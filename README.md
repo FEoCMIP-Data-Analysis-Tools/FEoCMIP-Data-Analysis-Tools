@@ -1,5 +1,5 @@
 # FeoCMIP-Data-Analysis-Tools
-A repository of Data-Analysis tools for CMIP models, contributed by members of Fresh Eyes on CMIP
+This repository contains Data tools for CMIP models, contributed by members of Fresh Eyes on CMIP
 
 This repository is organized into the following categories:
 - Preprocessing
