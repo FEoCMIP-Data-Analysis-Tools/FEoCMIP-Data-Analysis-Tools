@@ -11,11 +11,10 @@ This repository is organized into the following categories:
 - (ADD MORE HERE)
 
 The general layout of each file is as follows: 
-- Name and contact email of main contributor(s)
-- Purpose of script/function
-- Any other specific information users will need
-
-Executable code
+1. Name and contact email of main contributor(s)
+2. Purpose of script/function
+3. Any other specific information users will need
+4. Executable code
 
 
 # Contributor Information and Affiliations
