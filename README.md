@@ -19,4 +19,4 @@ The general layout of each file is as follows:
 
 # Contributor Information and Affiliations
 - Keighan Gemmell, University of British Columbia, Canada  🇨🇦
-- ADD YOUR NAME AND ASSOCIATION HERE 
+- ADD YOUR NAME AND AFFILIATION HERE 
