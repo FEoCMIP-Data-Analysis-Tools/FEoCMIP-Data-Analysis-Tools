@@ -15,6 +15,6 @@ The general layout of each file is as follows:
 Executable code
 
 
-# Contributor Information and Associations
+# Contributor Information and Affiliations
 - Keighan Gemmell, University of British Columbia, Canada
 - ADD YOUR NAME AND ASSOCIATION HERE 
