@@ -19,5 +19,5 @@ Executable code
 
 
 # Contributor Information and Affiliations
-- Keighan Gemmell, University of British Columbia, Canada
+- Keighan Gemmell, University of British Columbia, Canada  🇨🇦
 - ADD YOUR NAME AND ASSOCIATION HERE 
