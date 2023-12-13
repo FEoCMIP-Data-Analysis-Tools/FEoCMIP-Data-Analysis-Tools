@@ -1,4 +1,7 @@
-#This code will do a weighted grid box correction as a function of latitude and longitude.
+#Created by Keighan Gemmell (keighan@chem.ubc.ca)
+#This code will do a weighted grid box correction as a function of latitude and longitude
+#You will need to import your data and extract the lat-lon grid to do this correction 
+#The final variable, A_weighted_global can be used to correct for grid box size 
 
 lat= #define latitude
 lon= #define latitude
