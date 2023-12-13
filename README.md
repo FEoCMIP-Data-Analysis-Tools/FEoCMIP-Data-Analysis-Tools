@@ -2,15 +2,15 @@
 ![1683041435024](https://github.com/KeighanG/FEoCMIP-Data-Analysis-Tools/assets/134096991/ad0ee6f8-2820-48ab-b4a4-18ac62516963)
 
 
-<u>This repository contains Data handling tools for CMIP models, contributed by members of Fresh Eyes on CMIP</u>
+## This repository contains Data handling tools for CMIP models, contributed by members of Fresh Eyes on CMIP
 
-This repository is organized into the following categories:
+### This repository is organized into the following categories:
 - Preprocessing
 - Analysis
 - Visualization
 - (ADD MORE HERE)
 
-The general layout of each file is as follows: 
+### The general layout of each file is as follows: 
 1. Name and contact email of main contributor(s)
 2. Purpose of script/function
 3. Any other specific information users will need
