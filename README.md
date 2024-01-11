@@ -10,6 +10,9 @@
 - Visualization
 - (ADD MORE HERE)
 
+
+## Each file added should also include a .env file as well
+
 ### The general layout of each file is as follows: 
 1. Name and contact email of main contributor(s)
 2. Purpose of script/function
