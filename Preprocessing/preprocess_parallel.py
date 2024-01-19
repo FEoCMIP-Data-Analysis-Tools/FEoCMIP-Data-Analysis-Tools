@@ -18,8 +18,6 @@ import pyximport
 pyximport.install(setup_args={"include_dirs":np.get_include()},
                   reload_support=True)
 sys.path.insert(0,'') #fill in path here
-# Import Deepak Chandan's vinth2p_ecmwf implementation
-import interp
 
 ### Set of functions for executing preprocessing of CMIP6 data
 ### This code used an old AWS S3 storage system to access CMIP6 data, you will need to add the lines to pull data from wherever you store it
