@@ -11,7 +11,7 @@
 - (ADD MORE HERE)
 
 
-## Each python script added should also include a .env file as well
+## Each python script added should include a .env file as well
 
 ### The general layout of each file is as follows: 
 1. Name and contact email of main contributor(s)
