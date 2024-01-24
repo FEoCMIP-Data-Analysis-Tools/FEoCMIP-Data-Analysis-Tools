@@ -21,5 +21,6 @@
 
 
 # Contributor Information and Affiliations
-- Keighan Gemmell, University of British Columbia, Canada  🇨🇦
+- Keighan Gemmell, University of British Columbia, Canada 🇨🇦
+- Júlia Crespin Esteve, Universitat de Barcelona, Spain
 - ADD YOUR NAME AND AFFILIATION HERE 
