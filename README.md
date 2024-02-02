@@ -23,4 +23,5 @@
 # Contributor Information and Affiliations
 - Keighan Gemmell, University of British Columbia, Canada 🇨🇦
 - Júlia Crespin Esteve, Universitat de Barcelona, Spain
+- Anja Katzenberger, Potsdam Institute of Climate Impact Research, Germany 
 - ADD YOUR NAME AND AFFILIATION HERE 
