@@ -15,9 +15,6 @@ import json
 import os
 import sys
 import pyximport
-pyximport.install(setup_args={"include_dirs":np.get_include()},
-                  reload_support=True)
-sys.path.insert(0,'') #fill in path here
 
 ### Set of functions for executing preprocessing of CMIP6 data
 ### This code used an old AWS S3 storage system to access CMIP6 data, you will need to add the lines to pull data from wherever you store it
@@ -47,7 +44,6 @@ def getData(query:dict):
         for v in df_subset.zstore.values:
             zstore = v
             mapper = fs.get_mapper(zstore)
-            ### !!!! Note decode times is false so we can use integer time values !!!!
             ### open_zarr, so datasets are not loaded yet
             return_ds = xr.open_zarr(mapper, consolidated=True,decode_times=False)
     return(return_ds)
@@ -170,7 +166,7 @@ def run_preprocess(experiment:str, modelName:str, member:str, variables_in:list,
 
     print('Preprocessing for {0} {1} {2}'.format(modelName,experiment,member))
 
-    # if we are appending to an existing netcdf
+    # if you appending to an existing netcdf
     # load the dataset and determine the existing variables
     if append:
         if os.path.isfile(out_path):
@@ -181,7 +177,7 @@ def run_preprocess(experiment:str, modelName:str, member:str, variables_in:list,
             print('append = True, but no existing file. Setting to append = False')
             append = False
 
-    ## Load in data (could make faster with open_mfdataset?)
+    ## Load in data
     dict_query = {'source_id':modelName, 'table_id':frequency, 'experiment_id':experiment, 'member_id':member}
     data = {}
     for var in variables_in:
